@@ -5,14 +5,11 @@ void tukar1( int r , int t ){
     int temp=r;
     r=t;
     t=temp;
-
 }
 void tukar2( int &x , int &y){
     int temp=x;
     x=y;
     y=temp;
-
-
 }
 int main(){
     int a , b;
@@ -25,7 +22,6 @@ tukar1(a,b);
 cout<<"setelah tukarByvalue: "<<"a = "<<a<<" b = "<<b<<endl;
 tukar2(a,b);
 cout<<"setelah tukarByreference: "<<"a = "<<a<<" b = "<<b;
-
 return 0;
-
 }
+
